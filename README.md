@@ -106,8 +106,8 @@ The following diagram illustrate the concept of OCP VIP
 To use the VIPs, update the DNS entries to point to the corresponding VIPs.
 
 ```
-api         IN A    198.18.100.200
-api-int     IN A    198.18.100.200
+api         IN A    198.18.100.201
+api-int     IN A    198.18.100.201
 
 apps        IN A        198.18.100.200
 *.apps      IN CNAME    apps.ocp4poc.example.com.
